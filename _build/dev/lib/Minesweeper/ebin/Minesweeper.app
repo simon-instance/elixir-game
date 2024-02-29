@@ -1,0 +1,11 @@
+{application,minesweeper,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"minesweeper"},
+              {modules,['Elixir.Bomb','Elixir.Clear','Elixir.GameBoard',
+                        'Elixir.GameBoard.GameState','Elixir.GameBoard.Point',
+                        'Elixir.GameBoard.PowerUp','Elixir.GameBoard.Target',
+                        'Elixir.Minesweeper','Elixir.Player']},
+              {registered,[]},
+              {vsn,"1.0.0"},
+              {mod,{'Elixir.Minesweeper',[]}}]}.
