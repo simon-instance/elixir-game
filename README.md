@@ -1,0 +1,5 @@
+# Usage
+
+```cmd
+$ mix run
+```
